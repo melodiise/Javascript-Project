@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boba Tea Simulator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap" rel="stylesheet">  
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+
+    <header>
+
+      <div class="main">
+        <a href="index.html"><h1>Boba Tea Simulator</h1></a> 
+        <img src="boba.png" alt="Boba Tea" height="140">
+      </div>
+         <naV>
+             <h2>Instructions:</h2>
+             <P>Create the best Boba, pick your own ingredients!</P>
+         </naV>
+
+    </header>
+
+
+    <div class="questions"> </div>
+
+    <div class="result"> </div>
+
+    <div class="buttons"> 
+     
+    <button type="button" onclick="start()" class="startButton">START</button>
+    
+    <button type="button" class="next hide" onclick="nextQuestion()">Next</button>
+
+    <button type="button" class="restart hide" onclick="restart()">Restart</button>
+  </div>
+
+  </body>
+</html>
